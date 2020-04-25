@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IttyIt.MonoRepo.API", "IttyIt.MonoRepo.API\IttyIt.MonoRepo.API.csproj", "{EBA66734-A2F5-476C-969D-639A1AE6CAB4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IttyIt.MonoRepo.APIv2", "IttyIt.MonoRepo.APIv2\IttyIt.MonoRepo.APIv2.csproj", "{666273CE-B953-4FBC-A3C8-4AFA4C199D95}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EBA66734-A2F5-476C-969D-639A1AE6CAB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EBA66734-A2F5-476C-969D-639A1AE6CAB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EBA66734-A2F5-476C-969D-639A1AE6CAB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EBA66734-A2F5-476C-969D-639A1AE6CAB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{666273CE-B953-4FBC-A3C8-4AFA4C199D95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{666273CE-B953-4FBC-A3C8-4AFA4C199D95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{666273CE-B953-4FBC-A3C8-4AFA4C199D95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{666273CE-B953-4FBC-A3C8-4AFA4C199D95}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

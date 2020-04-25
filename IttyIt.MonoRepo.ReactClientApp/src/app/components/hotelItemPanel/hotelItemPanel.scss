@@ -1,0 +1,28 @@
+@import "../../theme/variables";
+
+.frame {
+  white-space: nowrap;
+  height: 100%;
+}
+
+.offer-badge {
+  position: absolute;
+
+  &__label {
+    position: relative;
+    top: 0.5em;
+    color: #ff0000;
+    background-color: #fff;
+    padding: 0.2em;
+  }
+}
+.hotel-image {
+  width: 100%;
+}
+.hotel-item-panel {
+  border-top: 1px solid $grey;
+
+  &:last-child {
+    border-bottom: 1px solid $grey;
+  }
+}

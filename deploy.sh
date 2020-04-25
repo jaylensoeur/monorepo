@@ -1,29 +1,32 @@
 #!/usr/bin/env bash
 
-PROJECTS=('IttyIt.MonoRepo.API' 'IttyIt.MonoRepo.ReactClientApp')
+PROJECTS=('IttyIt.MonoRepo.APIv2' 'IttyIt.MonoRepo.ReactClientApp')
 
 main() {
-  for PROJECT in "${PROJECTS[@]}"
+  work_directory=$(pwd);
+  for project in "${PROJECTS[@]}"
   do
-    is_build=$(git diff --name-only HEAD^ HEAD | grep -oP -m 1 "^$PROJECT/")
+    is_build=$(git diff --name-only HEAD^ HEAD | grep -oP -m 1 "^$project/")
     if [ -z $is_build ]
     then
         continue;
     else
-        build $PROJECT
+        build $project $work_directory
     fi
   done
 }
 
 build() {
   app=$1
+  work_directory=$2
 
   if [ -z $ENV ]
   then
     echo "Dry run build ${app}..."
   else
     echo "Build ${app}..."
-    $app/build.sh
+    cd $work_directory
+    cd $app && ./build.sh
   fi
 }
 

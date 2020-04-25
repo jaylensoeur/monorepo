@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelfRating /> should render 1`] = `
+<div
+  className="rating-block"
+  data-testid="rating"
+>
+  <span
+    className="star-rating"
+    style={
+      Object {
+        "color": "#f1e50e",
+      }
+    }
+  >
+    ⚫
+  </span>
+  <span
+    className="star-rating"
+    style={
+      Object {
+        "color": "#ccc",
+      }
+    }
+  >
+    ⚪
+  </span>
+  <span
+    className="star-rating"
+    style={
+      Object {
+        "color": "#ccc",
+      }
+    }
+  >
+    ⚪
+  </span>
+  <span
+    className="star-rating"
+    style={
+      Object {
+        "color": "#ccc",
+      }
+    }
+  >
+    ⚪
+  </span>
+  <span
+    className="star-rating"
+    style={
+      Object {
+        "color": "#ccc",
+      }
+    }
+  >
+    ⚪
+  </span>
+</div>
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PricingPanel /> should render 1`] = `
+<div
+  className="makeStyles-pricePanel-1"
+>
+  <sup
+    data-testid="price-description"
+  >
+     
+    
+  </sup>
+  <div
+    data-testid="currency-price"
+  >
+    <sup
+      className="makeStyles-currencySymbol-3"
+    >
+      $
+    </sup>
+    <span
+      className="makeStyles-price-7"
+      data-testid="price"
+    >
+      250
+    </span>
+  </div>
+  <div
+    data-testid="approx-savings"
+  >
+    
+  </div>
+</div>
+`;
