@@ -54,6 +54,9 @@ main;
 1. We could have a `build.sh` script for each project 
 2. Maintaining a project location list in the `deploy.sh` script
 
+
+# Meta-repo
+
 ###### Ref
 https://en.wikipedia.org/wiki/Monorepo
 
@@ -70,3 +73,5 @@ https://seed.run/blog/how-to-deploy-only-the-updated-services-in-a-monorepo-serv
 http://blog.shippable.com/build-test-and-deploy-applications-independently-from-a-monorepo
 
 https://notes.burke.libbey.me/metarepo/
+
+https://www.youtube.com/watch?v=NxQVSzjl3x4 (Matt Walters - Many repos? Monorepo? Meta repo!)
