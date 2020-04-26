@@ -56,7 +56,7 @@ main;
 
 
 # Meta-repo
-Meta repo is a tool for managing many-repos whilst adding all the benefites of a monorepo. 
+Meta repo is a tool for managing many-repos whilst adding all the benefits of a monorepo. 
 
 https://github.com/mateodelnorte/meta
 
