@@ -68,3 +68,5 @@ https://hackernoon.com/4-ways-to-go-monorepo-in-2019-ea5d19fc1f08
 https://seed.run/blog/how-to-deploy-only-the-updated-services-in-a-monorepo-serverless-app
 
 http://blog.shippable.com/build-test-and-deploy-applications-independently-from-a-monorepo
+
+https://notes.burke.libbey.me/metarepo/
