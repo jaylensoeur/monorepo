@@ -10,9 +10,11 @@ This is not what we want in large scale repos with a large number of projects.
 Unless the code change is a shared dependency, then its wasteful/inefficient to deploy to all.
 However, it is possible with a little effort to make the deployment smarter.
 
-One way to get more control is to split project deployment, we do this by comparing latest changes with the previous changes (latest commit with the previous commit).
+One way to get more control is to do an independent deployment, split project deployment, we do this by comparing latest changes with the previous changes (latest commit with the previous commit).
 When doing this we will need to workout what files have changed and in which projects. Then only building and deploying the project that change has effected.
-  
+
+
+>Below is a sample bash script of how we might achieve idependent deploy in a monorepo:
 ```
 #!/usr/bin/env bash
 
