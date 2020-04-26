@@ -56,6 +56,10 @@ main;
 
 
 # Meta-repo
+Meta repo is a tool for managing many-repos whilst adding all the benefites of a monorepo. 
+
+https://github.com/mateodelnorte/meta
+
 
 ###### Ref
 https://en.wikipedia.org/wiki/Monorepo
@@ -73,5 +77,7 @@ https://seed.run/blog/how-to-deploy-only-the-updated-services-in-a-monorepo-serv
 http://blog.shippable.com/build-test-and-deploy-applications-independently-from-a-monorepo
 
 https://notes.burke.libbey.me/metarepo/
+
+https://github.com/mateodelnorte/meta
 
 https://www.youtube.com/watch?v=NxQVSzjl3x4 (Matt Walters - Many repos? Monorepo? Meta repo!)
