@@ -54,11 +54,6 @@ main;
 1. We could have a `build.sh` script for each project 
 2. Maintaining a project location list in the `deploy.sh` script
 
-buildkite has support for triggers to run another pipeline, if your using buildkite this makes it a lot easier to watch for changes in different projects in a monorepo.
-
-https://buildkite.com/docs/pipelines/trigger-step
-
-
 
 
 # Meta-repo
